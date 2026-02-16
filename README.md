@@ -32,3 +32,23 @@ detect late-arriving files
 measure freshness (SLA): “is data updated today?”
 investigate issues: “problem started after yesterday’s load”
 
+
+-------------------------------------------------------------------------------------------------------------------
+
+## SILVER LAYER
+
+Goal
+
+1. Build a clean Silver pipeline for crm_cust_info that:
+2. Cleans and transforms data
+3. Enforces business key rules
+4. Sends invalid rows to quarantine
+5. Removes Bronze metadata
+6. Writes clean Silver table
+
+## High-Level Plan
+
+
+
+
+
