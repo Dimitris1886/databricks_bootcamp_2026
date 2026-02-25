@@ -46,9 +46,30 @@ Goal
 5. Removes Bronze metadata
 6. Writes clean Silver table
 
-## High-Level Plan
+## LOGIC
+##Function validate null for table BUILDING CUSTOMER DIMENSION TABLE
 
+STEP 1
+Define invalid rule.
 
+STEP 2
+Split data into:
+
+invalid rows
+
+valid rows
+
+STEP 3
+If invalid rows exist:
+
+enrich them with metadata
+
+write to quarantine (without duplicates)
+
+STEP 4
+Return valid rows only.
+
+That is the entire logic.
 
 
 
